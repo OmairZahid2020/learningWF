@@ -1,0 +1,61 @@
+name: pr-validation-wf 
+on:
+pull_request:
+ types:
+  - opened 
+  - synchronize
+
+  push:
+    branches:
+      -develop
+ 
+  jobs:
+     pr-validation-job:
+      runs-on: ubuntu-latest
+      steps:
+         -  name: welcome steps
+            run: echo "Welcome to the Github Actions"
+
+         - name: welcome steps
+           run: echo "Welcome to the GitHub Actions"
+         - name: second steps
+           run: echo "This is second step"
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           "
